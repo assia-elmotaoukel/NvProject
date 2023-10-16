@@ -10,6 +10,10 @@ class Auteur :
         
 auteur1= Auteur("J.K Rowling")
 livre1= Livre("harry potter and the sorcerer's stone",auteur1)
+livre2= Livre("harry potter ",auteur1)
+
+livre3= Livre(" potter ",auteur1)
+
 
 class Bibliotheque:
     def __init__(self):
